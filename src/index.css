@@ -63,6 +63,9 @@
 .header-image{
     text-align: right;
 }
+/* .h_img{
+    height: 70vh !important;
+} */
 #header .animated{
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
@@ -82,7 +85,11 @@
         transform: translateY(-20px);
     }
 }
-
+@media (max-width:998px){
+    #header{
+        margin-top: 300px;
+    }
+}
 /* *******************card********************* */
 /* .card img{
     height: 200px;
